@@ -55,7 +55,7 @@
             fixedCookieTypeLabel:'Necessary',
             fixedCookieTypeDesc: 'These are cookies that are essential for the website to work correctly.',
             onAccept: function(){},
-            uncheckBoxes: true
+            uncheckBoxes: false
         }, options);
 
         var myCookie = getCookie('cookieControl');
